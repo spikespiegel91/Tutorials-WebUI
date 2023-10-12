@@ -1,2 +1,2 @@
-# pythonUI-Qt
-A collection of python backend + Qt frontend UI templates
+# Tutorials-WebUI
+A collection of web UI tutorials and examples with html, CSS and Javascript
