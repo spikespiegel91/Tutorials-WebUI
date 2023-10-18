@@ -1,0 +1,115 @@
+
+
+/* Fuentes texto             */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah:700|Gloria Hallelujah:400');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700|Rubik:400');
+@import url('https://fonts.googleapis.com/css?family=Noto Sans Elbasan:700|Noto Sans Elbasan:400');
+
+body {
+  font-family: 'Noto Sans Elbasan';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Noto Sans Elbasan';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 3.053rem; /* 48.8px */}
+
+h2 {font-size: 2.442rem; /* 39.04px */}
+
+h3 {font-size: 1.954rem; /* 31.2px */}
+
+h4 {font-size: 1.563rem; /* 24.96px */}
+
+h5 {font-size: 1.250rem; /* 20px */}
+
+small {font-size: 0.800rem; /* 12.8px */}
+
+
+/* Colores  UI     tema1        */
+/*
+https://www.realtimecolors.com/dashboard?colors=f89e16-2f3c41-1cc470-099a8c-07cbed&fonts=Rubik-Rubik
+*/
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --text: #e98e07;
+      --background: #becbd0;
+      --primary: #3be38f;
+      --secondary: #65f6e7;
+      --accent: #12d5f8;
+    }
+  }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --text: #f89b14;
+      --background: #2f3c41;
+      --primary: #1cc470;
+      --secondary: #099a8c;
+      --accent: #07cbed;
+    }
+  }
+  
+
+
+
+
+/* Colores  UI     tema2        */
+/* 
+https://www.realtimecolors.com/dashboard?colors=40d6a3-2f3c41-051b1f-46aaa3-e0dedc&fonts=Gloria%20Hallelujah-Gloria%20Hallelujah 
+*/
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --text: #28bd8c;
+      --background: #becbd0;
+      --primary: #e0f6fa;
+      --secondary: #55b9b3;
+      --accent: #23211f;
+    }
+  }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --text: #40d6a3;
+      --background: #2f3c41;
+      --primary: #051b1f;
+      --secondary: #46aaa3;
+      --accent: #e0dedc;
+    }
+  }
+
+  /* Colores  UI     tema3        */
+/* 
+  https://www.realtimecolors.com/dashboard?colors=f9f5f6-1d1114-996e5c-1d1a11-9c905e&fonts=Rubik-Rubik
+
+*/
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --text: #0a0607;
+      --background: #eee2e5;
+      --primary: #a37866;
+      --secondary: #eeebe2;
+      --accent: #a19563;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #f9f5f6;
+      --background: #1d1114;
+      --primary: #996e5c;
+      --secondary: #1d1a11;
+      --accent: #9c905e;
+    }
+  }
+
+/* ejemplo
+https://dribbble.com/shots/22761796-Product-Dashboard
+*/
