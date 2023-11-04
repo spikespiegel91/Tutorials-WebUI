@@ -75,7 +75,7 @@ footer {
 }
 
 .item { 
-    width: 100px;
+    width: 200px;
     height: 100px;
     display: flex;
     justify-content: center;
